@@ -1,0 +1,29 @@
+<body>
+    <div class="form">
+    <h1>
+        LogIn Form
+    </h1>
+    <form action="">
+        <label for="email" class="email">Email:</label> 
+        <input type="email" name="email">
+        <br>
+        <br>
+        <label for="pass" class="pass"> Password:</label>
+        <input type="password" name="password">
+        <br><br>
+
+        <input type="button" value="login" id="submit">
+    </form>
+    <script>
+        const signup=document.getElementById('submit')
+        signup.addEventListener('click',()=>{
+        const formvalue=document.querySelector('form')
+        formvalue.style.display='none';
+        document.querySelector('h1').innerText="successfull"; 
+
+        })
+        
+            </script>
+            </div>
+</body>
+</html>
